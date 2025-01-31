@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/default.nix.txt
+File2[$e]=$HOME/Downloads/EE 97 Lab 1.pdf
+Name1[$e]=default.nix.txt
+Name2[$e]=EE 97 Lab 1.pdf

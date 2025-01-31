@@ -1,0 +1,45 @@
+2025-01-30 23:41:07.579 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-30 23:41:07.579 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-30 23:41:07.580 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-30 23:41:08.052 [info] Started local extension host with pid 4842.
+2025-01-30 23:41:09.198 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-30 23:41:10.854 [info] [perf] Render performance baseline is 37ms
+2025-01-30 23:41:22.058 [error] [network] #2: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-01-30 23:41:49.844 [error] [network] #6: https://jnoortheen.gallerycdn.vsassets.io/extensions/jnoortheen/nix-ide/0.4.11/1737901595476/Microsoft.VisualStudio.Code.Manifest - error GET Failed to fetch
+2025-01-30 23:41:49.845 [error] [network] #5: https://jnoortheen.gallerycdn.vsassets.io/extensions/jnoortheen/nix-ide/0.4.11/1737901595476/Microsoft.VisualStudio.Code.Manifest - error GET Failed to fetch
+2025-01-30 23:41:49.971 [error] [network] #8: https://jnoortheen.gallery.vsassets.io/_apis/public/gallery/publisher/jnoortheen/extension/nix-ide/0.4.11/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET Failed to fetch
+2025-01-30 23:41:49.981 [error] TypeError: Failed to fetch
+    at cFs (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:36213)
+    at vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:37328
+    at xat.c (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:637:17657)
+    at xat.request (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:37320)
+    at x3e.K (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1336:167)
+    at async x3e.getManifest (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:45574)
+    at async zat.X (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3115:9314)
+    at async zat.installFromGallery (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3115:6180)
+    at async vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2430:36705
+2025-01-30 23:41:50.007 [error] [network] #7: https://jnoortheen.gallery.vsassets.io/_apis/public/gallery/publisher/jnoortheen/extension/nix-ide/0.4.11/assetbyname/Microsoft.VisualStudio.Code.Manifest - error GET Failed to fetch
+2025-01-30 23:41:50.008 [error] TypeError: Failed to fetch
+    at cFs (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:36213)
+    at vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:37328
+    at xat.c (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:637:17657)
+    at xat.request (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:37320)
+    at x3e.K (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1336:167)
+    at async x3e.getManifest (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:45574)
+    at async uF.Cb (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2364:9340)
+    at async uF.setInput (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2364:6332)
+    at async HBe.U (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:523:19779)
+    at async HBe.M (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:523:18330)
+2025-01-30 23:41:50.020 [error] Failed to fetch: TypeError: Failed to fetch
+    at cFs (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:36213)
+    at vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:37328
+    at xat.c (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:637:17657)
+    at xat.request (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3110:37320)
+    at x3e.K (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1336:167)
+    at async x3e.getManifest (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:45574)
+    at async zat.X (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3115:9314)
+    at async zat.installFromGallery (vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3115:6180)
+    at async vscode-file://vscode-app/nix/store/3k12ll0sjc3crfb0saknajxd6j8g5aai-vscode-1.96.2/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2430:36705
+2025-01-30 23:50:50.388 [error] [text file model] handleSaveError(259) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/configuration.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/configuration.nix') file:///etc/nixos/configuration.nix
+2025-01-30 23:50:50.617 [error] [text file model] handleSaveError(259) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/configuration.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/configuration.nix') file:///etc/nixos/configuration.nix
+2025-01-30 23:50:58.087 [error] [text file model] handleSaveError(259) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/configuration.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/configuration.nix') file:///etc/nixos/configuration.nix
